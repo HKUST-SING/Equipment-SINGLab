@@ -31,6 +31,7 @@ Note:
 | Admin | p3295_1; sing | - | Gateway & Lab Website |
 | Shared | power2 | - | Simulation |
 | Gaoxiong Zeng | sing103-sing120; p3295_2-p3295_5 | 2017-8 | Project experiments |
+| Li Chen | sing40-sing60 | 2017-12 | Project experiments |
 
 Note:
 
