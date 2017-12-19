@@ -2,24 +2,31 @@
 
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| example | 60 | sing001-sing009; sing011-sing019 | [Link](http://www.dell.com/hk/en/business/p/poweredge-r320/pd) |
+| HUAWEI Tecal RH1288 V2 | 40 | 192.162.2.100-139 | [Link](https://www.anylinq.com/wp-content/uploads/2014/03/Huawei-Tecal-RH1288-V2-Rack-Server-Brochure.pdf) |
+| SUPERMICRO# 118-20 | 4 | 192.168.200-203 | [Link](https://www.eximpulse.com/import-product-Supermicro-port-Cochin-Air-Cargo-ACC-hscode-84715000-country-FRANCE.htm) | 
 
 Note: 
 
-* some notes.
+* The SuperMicro machines are equipped with 4 Nvidia Tesla K40m GPUs.
 
 # Switch List
 
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| example | 6 | p3295_1-p3295_6 | 48\*1Gbps+4\*10Gbps; [Link](http://www.pica8.com/documents/pica8-datasheet-48x1gbe-p3290-p3295.pdf) |
+| Mellanox SN2100 | 2 | - | MLNX 40G switches | 
 
+Note:
+
+* The new switch is being tested and would be uploaded soon.
 
 # Usage List
 | User | Equipment (Label) | Date from | Purpose |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| example | p3295_1; sing | - | Gateway & Lab Website |
+| Gateway | 192.168.2.254 | - | Gateway |
+| Yu's group | 192.168.2.111-114 | now-Jan.1st |  Borrowed to prof. Weichuan Yu, ECE |
+| GPU | 10.40.2.200-203 | - | IPs for internal usage. |
 
 Note:
 
+GPU IPs have the corresponding NICs connected to high speed switches.
 * Please keep the usage list up to date.
