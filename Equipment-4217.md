@@ -2,8 +2,8 @@
 
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| HUAWEI Tecal RH1288 V2 | 40 | 192.162.2.100-139 | [Link](https://www.anylinq.com/wp-content/uploads/2014/03/Huawei-Tecal-RH1288-V2-Rack-Server-Brochure.pdf) |
-| SUPERMICRO# 118-20 | 4 | 192.168.200-203 | [Link](https://www.eximpulse.com/import-product-Supermicro-port-Cochin-Air-Cargo-ACC-hscode-84715000-country-FRANCE.htm) | 
+| HUAWEI Tecal RH1288 V2 | 40 | 192.168.2.100-139 | [Link](https://www.anylinq.com/wp-content/uploads/2014/03/Huawei-Tecal-RH1288-V2-Rack-Server-Brochure.pdf) |
+| SUPERMICRO# 118-20 | 4 | 192.168.2.200-203 | [Link](https://www.eximpulse.com/import-product-Supermicro-port-Cochin-Air-Cargo-ACC-hscode-84715000-country-FRANCE.htm) | 
 
 Note: 
 
