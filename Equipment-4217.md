@@ -13,8 +13,9 @@ Note:
 
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| Mellanox SN2100 | 2 | - | MLNX 40G switches | 
-
+| Mellanox SN2100 | 2 (1 lent to NUDT) | - | MLNX 40/100G switches, 16 ports | 
+| Accton AS7712 | 4 | - | Cumulus Linux; 100G, 32ports |
+| Accton AS5712 | 1 | - | Not yet installed |
 Note:
 
 * The new switch is being tested and would be uploaded soon.
@@ -23,7 +24,7 @@ Note:
 | User | Equipment (Label) | Date from | Purpose |
 | :-------------: | :-------------: | :-------------: | ------------- |
 | Gateway | 192.168.2.254 | - | Gateway |
-| Yu's group | 192.168.2.111-114 | now-Jan.1st |  Borrowed to prof. Weichuan Yu, ECE |
+| Yu's group | 192.168.2.120,122-125 | now-late Feb. |  Lent to prof. Weichuan Yu, ECE |
 | GPU | 10.40.2.200-203 | - | IPs for internal usage. |
 
 Note:
