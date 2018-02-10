@@ -33,10 +33,15 @@ Note:
 # Extra NIC List
 | NIC | Quantity |
 | --- | -------- |
+| Mellanox ConnectX-4 Lx 50GbE one port | 4 |
+| Mellanox ConnectX-4 Lx 25GbE dual port | 4 |
+| Mellanox ConnectX-4 Lx 10GbE one port | 4 |
 
 # Extra Cable List
 | Cable | Quantity |
 | ----- | -------- |
+| 56GB/S QSPF AOC | 2 |
+| 100GbE to 2x50GbE 3m DAC | 1 |
 
 # Usage List
 | User | Equipment (Label) | Date from | Purpose |
