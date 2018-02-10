@@ -40,13 +40,13 @@ Note:
 # Extra Cable List
 | Cable | Quantity |
 | ----- | -------- |
-| 56GB QSFP AOC | 2 |
-| 100GbE to 2x50GbE 3m DAC | 1 |
-| 10GbE SFP 3m DAC | 4 |
-| 100GbE breakout 25GbE 3m DAC | 1 |
-| 100GbE breakout 25GbE 3m AOC | 1 |
-| 40GbE QSFP 3m DAC | 4 |
-| 100GbE QSFP 3m DAC | 4 |
+| Mellanox 56GB QSFP AOC | 2 |
+| Mellanox 100GbE to 2x50GbE 3m DAC | 1 |
+| Edge-core 10GbE SFP 3m DAC | 4 |
+| Edge-core 100GbE breakout 25GbE 3m DAC | 1 |
+| Edge-core 100GbE breakout 25GbE 3m AOC | 1 |
+| Edge-core 40GbE QSFP 3m DAC | 4 |
+| Edge-core 100GbE QSFP 3m DAC | 4 |
 
 # Usage List
 | User | Equipment (Label) | Date from | Purpose |
