@@ -24,7 +24,7 @@ Note:
 | Mellanox SN2100 | 2 (1 lent to NUDT) | - | MLNX 40/100G switches, 16 ports | 
 | Accton AS7712 | 4 | - | Cumulus Linux; 100G, 32ports |
 | Accton AS5712 | 1 | - | Not yet installed |
-| Wedge32-BF (tofino) | 1 | - | ONL | 
+| Wedge32-BF (Barefoot Tofino) | 1 | - | ONL | 
 
 Note:
 
