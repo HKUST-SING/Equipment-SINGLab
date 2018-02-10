@@ -42,6 +42,9 @@ Note:
 | ----- | -------- |
 | 56GB/S QSPF AOC | 2 |
 | 100GbE to 2x50GbE 3m DAC | 1 |
+| 10GbE SFP 3m DAC | 4 |
+| 100GbE breakout 25GbE 3m DAC | 1 |
+| 100GbE breakout 25GbE 3m AOC | 1 |
 
 # Usage List
 | User | Equipment (Label) | Date from | Purpose |
