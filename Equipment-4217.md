@@ -24,10 +24,10 @@ Note:
 | 192.168.2.107 | - | - | Mellanox ConnectX 4 | 10.200.2.107 Connect to Leaf 1 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.108 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 3 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.109 ~ 192.168.2.128 | - | - | - | - | - | - |
-| 192.168.2.129 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.131 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.132 ~ 192.168.2.133 | - | - | - | - | - | - |
+| 192.168.2.132 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.133 ~ 192.168.2.134 | - | - | - | - | - | - |
 | 192.168.2.200 | - | 4 x Tesla K40m | Mellanox ConnectX 4 | 4 | - | Connect to Mellanox Switch port 10 via Mellanox 40G DAC Cable | 
 | 192.168.2.201 | - | 4 x Tesla K40m | Mellanox ConnectX 4 | 4 | - | Connect to Mellanox Switch port 11 via Mellanox 40G DAC Cable | 
 | 192.168.2.202 | - | 4 x Tesla K40m | Mellanox ConnectX 4 | 4 | - | Connect to Mellanox Switch port 12 via Mellanox 40G DAC Cable | 
