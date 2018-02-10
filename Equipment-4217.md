@@ -14,8 +14,8 @@ Note:
 # Detailed Server List
 | MGT IP | NVMe | GPU | NIC | NIC Port 0 | NIC Port 1 | Task |
 | ------ | ---- | --- | --- | ---------- | ---------- | ---- | 
-| 192.168.2.100 | - | - | Mellanox ConnectX 5 100G | Connect to Facebook Wedge32 port 1 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
-| 192.168.2.101 | - | - | Mellanox ConnectX 5 100G | Connect to Facebook Wedge32 port 3 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
+| 192.168.2.100 | - | - | Mellanox ConnectX 5 100G | Connect to Facebook Wedge32 port 1 via Mellanox 100G DAC Cable | X | Monitoring Task - Zhaoxiong |
+| 192.168.2.101 | - | - | Mellanox ConnectX 5 100G | Connect to Facebook Wedge32 port 3 via Mellanox 100G DAC Cable | X | Monitoring Task - Zhaoxiong |
 | 192.168.2.102 | - | - | Mellanox ConnectX 4 100G | 10.200.1.102 Connect to Leaf 0 port 1 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.103 | - | - | Mellanox ConnectX 4 100G | 10.200.1.103 Connect to Leaf 0 port 2 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.104 | - | - | Mellanox ConnectX 3 | Connect to Leaf 0 port 9 via Mellanox 40G DAC Cable | Connect to Mellanox Switch port 1 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
@@ -24,9 +24,9 @@ Note:
 | 192.168.2.107 | - | - | Mellanox ConnectX 4 100G | 10.200.2.107 Connect to Leaf 1 port 1 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.108 | - | - | Mellanox ConnectX 3 | Connect to Leaf 1 port 9 via Mellanox 40G DAC Cable | Connect to Mellanox Switch port 3 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.109 ~ 192.168.2.128 | - | - | - | - | - | - |
-| 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.131 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.132 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.131 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 14 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.132 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 1 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.133 ~ 192.168.2.134 | - | - | - | - | - | - |
 | 192.168.2.200 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 10 via Mellanox 40G DAC Cable | Shared | 
 | 192.168.2.201 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 11 via Mellanox 40G DAC Cable | Shared |
