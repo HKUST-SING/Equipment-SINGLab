@@ -18,8 +18,8 @@ Note:
 | 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 3 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
 | 192.168.2.102 | - | - | Mellanox ConnectX 4 | 10.200.1.102 Connect to Leaf 0 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.103 | - | - | Mellanox ConnectX 4 | 10.200.1.103 Connect to Leaf 0 port 2 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
-| 192.168.2.104 | - | - | Mellanox ConnectX 4 | 10.200.1.104 Connect to Leaf 0 port 3 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
-| 192.168.2.105 | - | - | Mellanox ConnectX 4 | 10.200.2.105 Connect to Leaf 1 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
+| 192.168.2.104 | - | - | Mellanox ConnectX 3 | 10.200.1.104 Connect to Leaf 0 port 3 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
+| 192.168.2.105 | - | - | Mellanox ConnectX 3 | 10.200.2.105 Connect to Leaf 1 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 
 # Switch List
 | Hardware Model | Quantity | Label | Specification |
