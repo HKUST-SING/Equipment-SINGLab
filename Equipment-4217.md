@@ -12,19 +12,19 @@ Note:
 # Network Architecture
 
 # Detailed Server List
-| MGT IP | NVMe | GPU | NIC | NIC Port 1 | NIC Port 2 |
-| ------ | ---- | --- | --- | ------ | ------ |
-| 192.168.2.100 | - | - | Mellanox ConnectX 5 | Connect to MLNX Switch via XXX Cable | --- |
-| 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to MLNX Switch via XXX Cable | --- |
+| MGT IP | NVMe | GPU | NIC | NIC Port 0 | NIC Port 1 | Task |
+| ------ | ---- | --- | --- | ---------- | ---------- | ---- | 
+| 192.168.2.100 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 1 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
+| 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 2 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
 
 # Switch List
-
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
 | Mellanox SN2100 | 2 (1 lent to NUDT) | - | MLNX 40/100G switches, 16 ports | 
 | Accton AS7712 | 4 | - | Cumulus Linux; 100G, 32ports |
 | Accton AS5712 | 1 | - | Not yet installed |
 | Wedge32-BF (Barefoot Tofino) | 1 | - | ONL | 
+| Facebook Wedge32 | 1 | - | ONL |
 
 Note:
 
