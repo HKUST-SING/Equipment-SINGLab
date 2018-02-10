@@ -12,9 +12,10 @@ Note:
 # Network Architecture
 
 # Detailed Server List
-| MGT IP | NVMe | GPU | NIC | Port 1 | Port 2 |
+| MGT IP | NVMe | GPU | NIC | NIC Port 1 | NIC Port 2 |
 | ------ | ---- | --- | --- | ------ | ------ |
 | 192.168.2.100 | - | - | Mellanox ConnectX 5 | Connect to MLNX Switch via XXX Cable | --- |
+| 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to MLNX Switch via XXX Cable | --- |
 
 # Extra NIC List
 | NIC | Quantity |
