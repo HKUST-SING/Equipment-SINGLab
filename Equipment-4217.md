@@ -15,7 +15,7 @@ Note:
 | MGT IP | NVMe | GPU | NIC | NIC Port 0 | NIC Port 1 | Task |
 | ------ | ---- | --- | --- | ---------- | ---------- | ---- | 
 | 192.168.2.100 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 1 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
-| 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 2 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
+| 192.168.2.101 | - | - | Mellanox ConnectX 5 | Connect to Facebook Wedge32 port 3 via Mellanox 100G DAC Cable | - | Monitoring Task - Zhaoxiong |
 
 # Switch List
 | Hardware Model | Quantity | Label | Specification |
