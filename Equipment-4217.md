@@ -19,10 +19,10 @@ Note:
 | 192.168.2.102 | - | - | Mellanox ConnectX 4 | 10.200.1.102 Connect to Leaf 0 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.103 | - | - | Mellanox ConnectX 4 | 10.200.1.103 Connect to Leaf 0 port 2 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.104 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 1 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.105 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 1 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.105 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 2 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.106 | - | - | Mellanox ConnectX 4 | 10.200.1.106 Connect to Leaf 0 port 3 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.107 | - | - | Mellanox ConnectX 4 | 10.200.2.107 Connect to Leaf 1 port 1 via Mellanox 40G DAC Cable | - | Networking Test - Junxue & Jiacheng |
-| 192.168.2.108 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 1 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.108 | - | - | Mellanox ConnectX 3 | TODO | Connect to Mellanox Switch port 3 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.109 ~ 192.168.2.128 | - | - | - | - | - | - |
 | 192.168.2.129 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | TODO | - | Ceph Storage - Justin & Chaoliang |
