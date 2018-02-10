@@ -9,7 +9,28 @@ Note:
 
 * The SuperMicro machines are equipped with 4 Nvidia Tesla K40m GPUs.
 
+# Switch List
+| Hardware Model | Quantity | Label | Specification |
+| :-------------: | :-------------: | :-------------: | ------------- |
+| Mellanox SN2100 | 2 (1 lent to NUDT) | - | MLNX 40/100G switches, 16 ports | 
+| Accton AS7712 | 4 | - | Cumulus Linux, 32ports |
+| Accton AS5712 | 1 | - | Not yet installed |
+| Wedge32-BF (Barefoot Tofino) | 1 | - | ONL, 32ports| 
+| Facebook Wedge32 | 1 | - | ONL, 32ports |
+
 # Network Architecture
+
+We have 4 networks for different purposes.
+1. 4 AS7712 switches as a leaf-spine topology. This network is used to emulate the real data center networking. DSCP based PFC and ECN is enabled on serveral ports to support RoCEv2. The architecture is show as follows:
+
+![spine-leaf](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/Testbed%20Architecture.png)
+
+2. 1 Mellanox SN2100 switch for testing the rack-scale function. We currently test RDMA enabled MXNet upon those switches. The switch is also acted as the Ceph storage backend network.
+
+3. 1 Barefoot Wedge32-BF switch for testing programmable data plane.
+
+4. 1 Facebook Wedge32 for monitoring/diagnostic tools development. Zhaoxiong is in charge of this switch.
+
 
 # Detailed Server List
 | MGT IP | NVMe | GPU | NIC | NIC Port 0 | NIC Port 1 | Task |
@@ -32,19 +53,6 @@ Note:
 | 192.168.2.201 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 11 via Mellanox 40G DAC Cable | Shared |
 | 192.168.2.202 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 12 via Mellanox 40G DAC Cable | Shared |
 | 192.168.2.203 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 13 via Mellanox 40G DAC Cable | Shared |
-
-# Switch List
-| Hardware Model | Quantity | Label | Specification |
-| :-------------: | :-------------: | :-------------: | ------------- |
-| Mellanox SN2100 | 2 (1 lent to NUDT) | - | MLNX 40/100G switches, 16 ports | 
-| Accton AS7712 | 4 | - | Cumulus Linux; 100G, 32ports |
-| Accton AS5712 | 1 | - | Not yet installed |
-| Wedge32-BF (Barefoot Tofino) | 1 | - | ONL | 
-| Facebook Wedge32 | 1 | - | ONL |
-
-Note:
-
-* The new switch is being tested and would be uploaded soon.
 
 # Extra NIC List
 | NIC | Quantity |
