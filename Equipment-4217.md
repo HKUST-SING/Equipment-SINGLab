@@ -9,6 +9,21 @@ Note:
 
 * The SuperMicro machines are equipped with 4 Nvidia Tesla K40m GPUs.
 
+# Network Architecture
+
+# Detailed Server List
+| MGT IP | NVMe | GPU | NIC | Port 1 | Port 2 |
+| ------ | ---- | --- | --- | ------ | ------ |
+| 192.168.2.100 | - | - | Mellanox ConnectX 5 | Connect to MLNX Switch via XXX Cable | --- |
+
+# Extra NIC List
+| NIC | Quantity |
+| --- | -------- |
+
+# Extra Cable List
+| Cable | Quantity |
+| ----- | -------- |
+
 # Switch List
 
 | Hardware Model | Quantity | Label | Specification |
