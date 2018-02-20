@@ -66,7 +66,7 @@ We have 4 networks for different purposes.
 # Extra Cable List
 | Cable | Quantity |
 | ----- | -------- |
-| Mellanox 56GB QSFP AOC | 2 |
+| Mellanox 56Gb QSFP AOC | 2 |
 | Mellanox 100GbE to 2x50GbE 3m DAC | 1 |
 | Mellanox 40Gb 3m DAC | 0 |
 | Edge-core 10GbE SFP 3m DAC | 4 |
