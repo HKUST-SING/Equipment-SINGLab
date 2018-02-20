@@ -44,11 +44,12 @@ We have 4 networks for different purposes.
 | 192.168.2.106 | - | - | Mellanox ConnectX 4 100G | 10.200.1.106 Connect to Leaf 0 port 3 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.107 | - | - | Mellanox ConnectX 4 100G | 10.200.2.107 Connect to Leaf 1 port 1 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.108 | - | - | Mellanox ConnectX 3 | Connect to Leaf 1 port 9 via Mellanox 40G DAC Cable | Connect to Mellanox Switch port 3 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.109 ~ 192.168.2.128 | - | - | - | - | - | - |
+| 192.168.2.109 | - | - | Broadcom NetXtreme BCM5719 1G | Connect to Management Network | X | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.110 ~ 192.168.2.128 | - | - | - | - | - | - |
 | 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.131 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 14 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.132 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 1 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.133 ~ 192.168.2.134 | - | - | - | - | - | - |
+| 192.168.2.133 ~ 192.168.2.134 | - | - | Broadcom NetXtreme BCM5719 1G | Connect to Management Network | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.200 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 10 via Mellanox 40G DAC Cable | Shared | 
 | 192.168.2.201 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 11 via Mellanox 40G DAC Cable | Shared |
 | 192.168.2.202 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 12 via Mellanox 40G DAC Cable | Shared |
