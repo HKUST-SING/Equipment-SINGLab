@@ -28,7 +28,7 @@ Due to the NIC and cable limitation, we can delay the high fanout configuration
 
 results:
 
-2. Lantency (fanout is from 1:1 to 17:1)
+2. Latency (fanout is from 1:1 to 17:1)
 
 results:
 
@@ -40,7 +40,7 @@ Due to the NIC and cable limitation, we can delay this
 
 results:
 
-2. Lantecy (48 * 25Gbps to 1 * 100Gbps port)
+2. Latency (48 * 25Gbps to 1 * 100Gbps port)
 
 results:
 
@@ -56,7 +56,7 @@ One endhost should be connect to leaf 1 while the others should be connected to 
 
 results:
 
-2. Lantency (fanout is from 1:1 to 3:1)
+2. Latency (fanout is from 1:1 to 3:1)
 
 One endhost should be connect to leaf 1 while the others should be connected to leaf 0
 
