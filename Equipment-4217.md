@@ -49,7 +49,8 @@ We have 4 networks for different purposes.
 | 192.168.2.130 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.131 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 0 port 14 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.132 | - | - | Mellanox ConnectX 4 50G | Connect to Leaf 1 port 13 via Edge-core 40G DAC Cable | X | Ceph Storage - Justin & Chaoliang |
-| 192.168.2.133 ~ 192.168.2.134 | - | - | Broadcom NetXtreme BCM5719 1G | Connect to Management Network | X | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.133 | - | - | Mellanox ConnectX 4 25G | Connect to Leaf 1 port 30 via 100G breakout 25G AOC 3M DAC Cable | X | Ceph Storage - Justin & Chaoliang |
+| 192.168.2.134 | - | - | Mellanox ConnectX 4 25G | Connect to Leaf 1 port 30 via 100G breakout 25G AOC 3M DAC Cable | X | Ceph Storage - Justin & Chaoliang |
 | 192.168.2.200 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 10 via Mellanox 40G DAC Cable | Shared | 
 | 192.168.2.201 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 11 via Mellanox 40G DAC Cable | Shared |
 | 192.168.2.202 | - | 4 x Tesla K40m | Mellanox ConnectX 4 40/56G | - | Connect to Mellanox Switch port 12 via Mellanox 40G DAC Cable | Shared |
@@ -59,7 +60,7 @@ We have 4 networks for different purposes.
 | NIC | Quantity |
 | --- | -------- |
 | Mellanox ConnectX-4 Lx 50GbE one port | 1 |
-| Mellanox ConnectX-4 Lx 25GbE dual port | 4 |
+| Mellanox ConnectX-4 Lx 25GbE dual port | 2 |
 | Mellanox ConnectX-4 Lx 10GbE one port | 4 |
 
 # Extra Cable List
@@ -70,7 +71,6 @@ We have 4 networks for different purposes.
 | Mellanox 40Gb 3m DAC | 2 |
 | Edge-core 10GbE SFP 3m DAC | 4 |
 | Edge-core 100GbE breakout 25GbE 3m DAC | 1 |
-| Edge-core 100GbE breakout 25GbE 3m AOC | 1 |
 | Edge-core 40GbE QSFP 3m DAC | 2 |
 | Edge-core 100GbE QSFP 3m DAC | 4 |
 
