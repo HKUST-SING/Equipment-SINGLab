@@ -36,7 +36,7 @@ We have 4 networks for different purposes.
 | MGT IP | NVMe | GPU | NIC | NIC Port 0 | NIC Port 1 | Task |
 | ------ | ---- | --- | --- | ---------- | ---------- | ---- | 
 | 192.168.2.100 | - | - | Mellanox ConnectX 5 100G | Connect to P4 switch port 1 via Mellanox 100G DAC Cable | X | Lent to Bojie |
-| 192.168.2.101 | - | - | Mellanox ConnectX 5 100G | Connect to P4 switch port 1 via Mellanox 100G DAC Cable | X | Lent to Bojie |
+| 192.168.2.101 | - | - | Mellanox ConnectX 5 100G | Connect to P4 switch port 2 via Mellanox 100G DAC Cable | X | Lent to Bojie |
 | 192.168.2.102 | - | - | Mellanox ConnectX 4 100G | 10.200.1.102 Connect to Leaf 0 port 1 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.103 | - | - | Mellanox ConnectX 4 100G | 10.200.1.103 Connect to Leaf 0 port 2 via Mellanox 100G DAC Cable | - | Networking Test - Junxue & Jiacheng |
 | 192.168.2.104 | - | - | Mellanox ConnectX 3 | Connect to Leaf 0 port 9 via Mellanox 40G DAC Cable | Connect to Mellanox Switch port 1 via Mellanox 40G DAC Cable | Ceph Storage - Justin & Chaoliang |
