@@ -19,8 +19,8 @@ Note:
 | User | Equipment (Label) | Date from | Purpose |
 | :-------------: | :-------------: | :-------------: | ------------- |
 | Admin | p3295_1; sing | - | Gateway & Lab Website |
-| Yiqing Ma | sing1,sing40-42,sing46-50 | 2018-4| Project experiments |
 | Gaoxiong Zeng | sing101-sing120; p3295_2-p3295_5 | 2017-8 | Project experiments |
+| Yiqing Ma | sing1,sing40-42,sing46-50 | 2018-4| Project experiments |
 
 Note:
 
