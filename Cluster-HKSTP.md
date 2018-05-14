@@ -4,12 +4,14 @@ We have 2 GPU servers, 5 storage servers and 5 General CPU servers in HKSTP. All
 
 # Switch comfiguration
 
-* port1-2 are connected to GPU0-1.
+* port 1-2 are connected to GPU0-1.
 
-* port3-7 are connected to CPU0-4.
+* port 3-7 are connected to CPU0-4.
 
-* port8-12 are connected to Storage servers. 
+* port 8-12 are connected to Storage servers. 
 
-* port13 is reserverd.
+* port 13 is reserverd.
 
-* port14-16 are connected to Storage servers (Storage internal network).
+* port 14-16 are connected to Storage servers (Storage internal network).
+
+port 1-13 are put in one vlan (untagged) while port 14-16 are put in another vlan (untagged).
