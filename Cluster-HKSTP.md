@@ -64,6 +64,6 @@ Login server mainly provides vpn service.
 
 ## Network Configuration:
 
-First Ethernet port is connected to MGT switch port 34 with IP address of 172.17.0.1/16.
+First Ethernet port is connected to MGT switch port 35 with IP address of 172.17.0.1/16.
 Second Ethernet port is connected to public network.
 
