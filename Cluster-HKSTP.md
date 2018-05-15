@@ -4,6 +4,8 @@ We have 2 GPU servers, 5 storage servers and 5 General CPU servers in HKSTP. All
 
 # Switch Configuration
 
+## Port Configuration
+
 * MGT port is connected to MGT switch port 37.
 
 * Serial port is connected to MaaS server.
@@ -19,6 +21,12 @@ We have 2 GPU servers, 5 storage servers and 5 General CPU servers in HKSTP. All
 * port 14-16 are connected to Storage servers (Storage internal network).
 
 port 1-13 are put in one vlan (untagged) while port 14-16 are put in another vlan (untagged).
+
+## PFC Configuration
+
+PFC is turned on priority group 3.
+
+DSCP 24 25 26 27 28 29 30 31 is mapped to priority group 3.
 
 # GPU Server Configuration
 
