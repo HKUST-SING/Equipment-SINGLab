@@ -60,7 +60,8 @@ MaaS server provides baremetal server as a service, DNS service and DHCP service
 
 ## Network Configuration:
 
-First Ethernet port is connected to MGT switch port 33 with IP address of 172.17.0.1/16 (main address) and 192.168.0.1/16 (act as IPMI gateway if needed).
+First Ethernet port is connected to MGT switch port 33 with IP address of 172.17.0.1/16.
+The second Ethernet port is connected to MGT switch port 34 with IP address 192.168.0.1/16 (act as IPMI gateway if needed).
 
 # Login Server
 
