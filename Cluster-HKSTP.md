@@ -4,6 +4,10 @@ We have 2 GPU servers, 5 storage servers and 5 General CPU servers in HKSTP. All
 
 # Switch Configuration
 
+* MGT port is connected to MGT switch port 37.
+
+* Serial port is connected to MaaS server.
+
 * port 1-2 are connected to GPU0-1.
 
 * port 3-7 are connected to Storage servers.
