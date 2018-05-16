@@ -36,13 +36,24 @@ Please follow this [guide](https://raw.githubusercontent.com/HKUST-SING/Equipmen
 
 # BareMental as a Service (MaaS)
 
-After establishing the VPN connection, you can open your web brower and visit [http://maas.maas] to access the MaaS dashboard. You can acquire machines, deploy or re-deploy OS for different nodes.
+After establishing the VPN connection, you can open your web brower and visit [http://maas.maas](http://maas.maas) to access the MaaS dashboard. You can acquire machines, deploy or re-deploy OS for different nodes.
 
 After login to MaaS for the first time, you are required to import a public key, which is used to login to nodes.
+
+![nodelist](https://github.com/HKUST-SING/Equipment-SINGLab/blob/master/nodes.png)
 
 From nodes section of the dashboard, you can find available nodes based on your account permission. Such as ```cpu01.maas```, ```cpu02.maas```. On your local computer, you can direct use the host name to access one machine, such as ```ping cpu01.maas```. The hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network.
 
 The hostname can also be used among all machines.
 
+You do *NOT* need to manually configure the IP address of network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use hostname directly.
+
 # Access RDMA Network
 
+As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network. How can we access the IP address of the RDMA network.
+
+![cpu01 interface](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/CPU01%20interface.png)
+
+Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the interface section of a node). 
+
+You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to one particular interface. 
