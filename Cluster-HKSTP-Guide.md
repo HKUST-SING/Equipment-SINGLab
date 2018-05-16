@@ -32,5 +32,9 @@ Please follow this [guide](https://raw.githubusercontent.com/HKUST-SING/Equipmen
 
 *Do not give your configuration file to others*, you login will be audited.
 
+*Do not change the DNS settings,* OpenVPN will send the DNS configuration files on your local computer. You local computer uses this DNS to resolve the domain name of different nodes in our cluster.
+
 # BareMental as a Service (MaaS)
+
+After establishing the VPN connection, you can open your web brower and visit [http://maas.maas] to access the MaaS dashboard. You can acquire machines, deploy or re-deploy OS for different nodes.
 
