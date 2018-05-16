@@ -56,7 +56,7 @@ As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP addre
 
 Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
 
-You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface
+You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
