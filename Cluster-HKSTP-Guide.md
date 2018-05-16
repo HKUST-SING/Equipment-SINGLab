@@ -32,25 +32,25 @@ Please follow this [guide](https://www.digitalocean.com/community/tutorials/how-
 
 *Do not give your configuration file to others*, you login will be audited.
 
-*Do not change the DNS settings,* OpenVPN will send the DNS configuration files on your local computer. You local computer uses this DNS to resolve the domain name of different nodes in our cluster.
+*Do not change the DNS settings,* OpenVPN will send the DNS configuration files to your local computer. You local computer uses this DNS to resolve the domain name in our cluster.
 
 # BareMental as a Service (MaaS)
 
 After establishing the VPN connection, you can open your web brower and visit [http://maas.maas](http://maas.maas) to access the MaaS dashboard. You can acquire machines, deploy or re-deploy OS for different nodes.
 
-After login to MaaS for the first time, you are required to import a public key, which is used to login to nodes.
+After login to MaaS for the first time, you are required to import a public key, which is used for ssh login.
 
 ![nodelist](https://github.com/HKUST-SING/Equipment-SINGLab/blob/master/nodes.png)
 
-From nodes section of the dashboard, you can find available nodes based on your account permission. Such as ```cpu01.maas```, ```cpu02.maas```. On your local computer, you can direct use the host name to access one machine, such as ```ping cpu01.maas```. The hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network.
+From nodes section of the dashboard, you can find available nodes based on your account permission. Such as ```cpu01.maas```, ```cpu02.maas```. On your local computer, you can directly use the domain name to access one machine, such as ```ping cpu01.maas```. The domain name ```{nodetype0x}.maas``` refers to the IP address in the MGT network.
 
-The hostname can also be used among all machines.
+The domain name can also be used among machines.
 
-You do *NOT* need to manually configure the IP address of network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use hostname directly.
+You do *NOT* need to manually configure the IP address for network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use domain name directly.
 
-One user can acquire onlyu one machine. After finishing the machine, the user can release the machine, which will erase the disk of the machine. 
+One user can acquire only one machine. After finishing the machine, the user should release the machine, which will erase the disk. 
 
-For a group of people working together, we will create a group account and add mutiple public keys for the account.
+For a group of people working together, we will create a group account and add mutiple public keys for different members. Team leader can also manage the machines by himself/herself.
 
 # Access RDMA Network
 
@@ -58,9 +58,9 @@ As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP addre
 
 ![cpu01 interface](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/CPU01%20interface.png)
 
-Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
+Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
 
-You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
+You can use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
 *TODO: Will rename the interface name to a better name, such as rdma01, rdma02 later.*
 
@@ -68,7 +68,9 @@ The OFED driver is not installed by default. Please download the driver from [Me
 
 # Configure PFC for RDMA Network
 
-The PFC is turned on for priority group 3.
+We use L3 PFC.
+
+The PFC is turned on for priority group 3 on RDMA network.
 
 DSCP 24 25 26 27 28 29 30 31 are mapped to priority group 3.
 
