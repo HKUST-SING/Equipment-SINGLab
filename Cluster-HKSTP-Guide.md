@@ -38,3 +38,11 @@ Please follow this [guide](https://raw.githubusercontent.com/HKUST-SING/Equipmen
 
 After establishing the VPN connection, you can open your web brower and visit [http://maas.maas] to access the MaaS dashboard. You can acquire machines, deploy or re-deploy OS for different nodes.
 
+After login to MaaS for the first time, you are required to import a public key, which is used to login to nodes.
+
+From nodes section of the dashboard, you can find available nodes based on your account permission. Such as ```cpu01.maas```, ```cpu02.maas```. On your local computer, you can direct use the host name to access one machine, such as ```ping cpu01.maas```. The hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network.
+
+The hostname can also be used among all machines.
+
+# Access RDMA Network
+
