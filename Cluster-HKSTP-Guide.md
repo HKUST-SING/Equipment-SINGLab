@@ -66,13 +66,15 @@ You can use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
-# Configure PFC for RDMA Network
+# Configure PFC & ECN for RDMA Network
 
-We use L3 PFC.
+DSCP 24 25 26 27 28 29 30 31 are mapped to TC 3.
 
-The PFC is turned on for priority group 3 on RDMA network.
+ECN is turned on for TC 3.
 
-DSCP 24 25 26 27 28 29 30 31 are mapped to priority group 3.
+TC3 is mapped to priority group 3.
+
+We use L3 PFC and PFC is turned on for priority group 3 on RDMA network.
 
 Please refer to this [guide](https://community.mellanox.com/docs/DOC-2881) for configuration.
 
