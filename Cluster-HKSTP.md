@@ -16,7 +16,7 @@ We have 2 GPU servers, 5 storage servers and 5 General CPU servers in HKSTP. All
 
 * port 8-12 are connected to CPU0-4. 
 
-* port 13 is reserverd.
+* port 13 is connected with MaaS for emergency usage.
 
 * port 14-16 are connected to Storage servers (Storage internal network).
 
