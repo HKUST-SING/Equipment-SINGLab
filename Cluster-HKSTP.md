@@ -72,7 +72,7 @@ MaaS server provides baremetal server as a service, DNS service and DHCP service
 
 * Second Ethernet port is connected to MGT switch port 34 with IP address 192.168.0.1/16 (acts as IPMI gateway if needed).
 
-* First RDMA port is connected to Mellanox swtich port 13 for emergency usage.
+* Connect X4 NIC port 0 is connected to Mellanox swtich port 13 for emergency usage.
 
 # Login Server
 
