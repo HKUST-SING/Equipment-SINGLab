@@ -48,6 +48,10 @@ The hostname can also be used among all machines.
 
 You do *NOT* need to manually configure the IP address of network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use hostname directly.
 
+Only one user can acquire one machine. After finishing the machine, the user can release the machine, which will erase the disk of the machine. 
+
+For a group of people working together, we will create a group account and add mutiple public keys for the account.
+
 # Access RDMA Network
 
 As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network. How can we access the IP address of the RDMA network ?
