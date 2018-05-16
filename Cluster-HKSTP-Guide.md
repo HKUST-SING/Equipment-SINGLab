@@ -50,10 +50,10 @@ You do *NOT* need to manually configure the IP address of network interfaces. *A
 
 # Access RDMA Network
 
-As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network. How can we access the IP address of the RDMA network.
+As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP address of the MGT network. How can we access the IP address of the RDMA network ?
 
 ![cpu01 interface](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/CPU01%20interface.png)
 
-Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the interface section of a node). 
+Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
 
 You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to one particular interface. 
