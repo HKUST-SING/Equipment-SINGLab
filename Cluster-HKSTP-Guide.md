@@ -58,6 +58,8 @@ Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA 
 
 You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
+*TODO: Will rename the interface name to a better name, such as rdma01, rdma02 later.*
+
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
 # Configure PFC for RDMA Network
