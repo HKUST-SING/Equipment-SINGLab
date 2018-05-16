@@ -28,7 +28,7 @@ For more information, please refer our [configuration details](https://github.co
 
 Each user will be provided with his/her own OpenVpn configuration file.
 
-Please follow this [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-8-adjust-the-server-networking-configuration) to configure the VPN.
+Please follow this [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04#step-12-install-the-client-configuration) to configure the VPN.
 
 *Do not give your configuration file to others*, you login will be audited.
 
