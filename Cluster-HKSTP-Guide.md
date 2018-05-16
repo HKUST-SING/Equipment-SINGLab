@@ -56,4 +56,15 @@ As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP addre
 
 Take ```cpu01.maas``` for example, the device ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
 
-You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to one particular interface. 
+You can always use ```ens3f0.cpu01.maas``` to access the IP assigned to one particular interface.
+
+By the way, the OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
+
+# Configure PFC for RDMA Network
+
+The PFC is turned on for priority group 3.
+
+DSCP 24 25 26 27 28 29 30 31 are mapped to priority group 3.
+
+Please refer to this [guide](https://community.mellanox.com/docs/DOC-2881) for configuration.
+
