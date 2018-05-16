@@ -58,7 +58,7 @@ As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP addre
 
 ![cpu01 interface](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/CPU01%20interface.png)
 
-Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RDMA network. (You can check the Interfaces section of a node). 
+Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RDMA (fabric-rdma) network. (You can check the Interfaces section of a node). 
 
 You can use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
