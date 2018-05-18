@@ -1,5 +1,13 @@
 # HKSTP Cluster Guide
 
+# Networking Policy
+
+* By default, your local traffic will not be forwarded via VPN. Please do *NOT* set up any proxy/tunnel to use the bare mental machine as an Internet gateway.
+
+* Please keep your VPN configuration at a safe place.
+
+* Please do *NOT* change IP addresses of any machines. If you do want some other IP address, please contact the infrastructure team.
+
 # Infrustructure Architecture
 
 ![arch](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/HKSTP%20Arch.png)
