@@ -46,7 +46,7 @@ From nodes section of the dashboard, you can find available nodes based on your 
 
 The domain name can also be used among machines.
 
-You do *NOT* need to manually configure the IP address for network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use domain name directly.
+You do *NOT* need to manually configure the IP address for network interfaces. *All* IP addresses of *all* interfaces are configured automatically via DHCP. A DNS record will be inserted to DNS server for each IP. So, let's forget about the IP and use domain name directly. If you *DO* want to use IP directly, you can also do that. The IP will not change until you release the machine.
 
 One user can acquire only one machine. After finishing the machine, the user should release the machine, which will erase the disk. 
 
