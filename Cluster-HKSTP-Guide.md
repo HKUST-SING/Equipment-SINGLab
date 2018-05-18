@@ -66,6 +66,8 @@ You can use ```ens3f0.cpu01.maas``` to access the IP assigned to the interface.
 
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
+*TODO: Will provide the OS image containing the driver later.*
+
 # Configure PFC & ECN for RDMA Network
 
 DSCP 24 25 26 27 28 29 30 31 are mapped to TC 3.
