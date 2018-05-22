@@ -70,7 +70,7 @@ Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RD
 
 You can use ```rdma0.cpu01.maas``` to access the IP assigned to the interface.
 
-*UPDATE:* The RDMA interface has been renamed to rdma01 and rdma02 (except for storage nodes).
+*UPDATE:* The RDMA interface has been renamed to rdma0 and rdma01 (except for storage nodes).
 
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
