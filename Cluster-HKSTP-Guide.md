@@ -54,6 +54,8 @@ After establishing the VPN connection, you can open your web brower and visit [h
 
 After login to MaaS for the first time, you are required to import a public key, which is used for ssh login.
 
+*IMPORTANT:* You have to import your key before deploying the OS, the key will be written to OS during deployment.
+
 ![nodelist](https://github.com/HKUST-SING/Equipment-SINGLab/blob/master/nodes.png)
 
 From nodes section of the dashboard, you can find available nodes based on your account permission. Such as ```cpu01.maas```, ```cpu02.maas```. On your local computer, you can directly use the domain name to access one machine, such as ```ping cpu01.maas```. The domain name ```{nodetype0x}.maas``` refers to the IP address in the MGT network.
