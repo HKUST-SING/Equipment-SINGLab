@@ -1,5 +1,11 @@
 # HKSTP Cluster Guide
 
+# Update
+## 2018-5-22
+1. The RDMA interface has been renamed to rdma0 and rdma01 (except for storage nodes). You can now use ```ping rdma0.cpu01.maas``` to access the rdma interface.
+
+2. The VPN has been updated to handle clients with frequently changing IP, which would be quite useful when the clientes are behind NAT, such as HKUST eduroam.
+
 # Networking Policy
 
 * By default, your local traffic will not be forwarded via VPN. Please do *NOT* set up any proxy/tunnel to use the bare mental machine as an Internet gateway.
@@ -69,8 +75,6 @@ As mentioned before, the hostname ```{nodetype0x}.maas``` refers to the IP addre
 Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RDMA (fabric-rdma) network. (You can check the Interfaces section of a node). 
 
 You can use ```rdma0.cpu01.maas``` to access the IP assigned to the interface.
-
-*UPDATE:* The RDMA interface has been renamed to rdma0 and rdma01 (except for storage nodes).
 
 The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
 
