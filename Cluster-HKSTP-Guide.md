@@ -4,6 +4,10 @@
 ## 2018-5-24
 1. The RDMA is *TOTALLY AUTOMATICALLY* configured (except for storage nodes). The driver will be automatically installed during OS deployment. PFC will be configured when you first log in the system. 
 
+* The PFC will be enabled on priority group 3. L3 mode.
+
+* The RDMA-CM tos will be set to 106.
+
 ## 2018-5-22
 1. The RDMA interface has been renamed to rdma0 and rdma01 (except for storage nodes). You can now use ```ping rdma0.cpu01.maas``` to access the rdma interface.
 
