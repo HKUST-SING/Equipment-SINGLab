@@ -1,6 +1,9 @@
 # HKSTP Cluster Guide
 
 # Update
+## 2018-5-24
+1. The RDMA is *TOTALLY AUTOMATICALLY* configured (except for storage nodes). The driver will be automatically installed during OS deployment. PFC will be configured when you first login the system. 
+
 ## 2018-5-22
 1. The RDMA interface has been renamed to rdma0 and rdma01 (except for storage nodes). You can now use ```ping rdma0.cpu01.maas``` to access the rdma interface.
 
@@ -78,9 +81,9 @@ Take ```cpu01.maas``` for example, the interface ```ens3f0``` is connected to RD
 
 You can use ```rdma0.cpu01.maas``` to access the IP assigned to the interface.
 
-The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.
+~~The OFED driver is not installed by default. Please download the driver from [Mellanox](http://www.mellanox.com/page/products_dyn?product_family=26) and install it by yourself.~~
 
-*TODO: Will provide the OS image containing the driver later.*
+~~*TODO: Will provide the OS image containing the driver later.*~~
 
 # Configure PFC & ECN for RDMA Network
 
