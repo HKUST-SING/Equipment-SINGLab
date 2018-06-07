@@ -4,9 +4,13 @@
 
 This document discusses the procedure of acquiring servers, switches and NICs for Huawei testbed.
 
-## Using machines in Huawei cluster
+## Public machines
 
-In the future Huawei cluster will no longer provide NFS (network file system), 
+We will keep 4 CPU nodes with RDMA capability accessible by the legacy LDAP account. You can feel free to try any functionalities. Usage of GPU nodes are not yet finalized and all suggestions are welcomed.
+
+## Using other machines in Huawei cluster
+
+Other machines in Huawei cluster will no longer provide NFS (network file system), 
 instead we manage the cluster through a tool named MAAS(https://maas.io/). 
 To be concrete, the application procedure is as following:
 
