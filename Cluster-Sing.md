@@ -21,6 +21,7 @@ Note:
 | Admin | p3295_1; sing | - | Gateway & Lab Website |
 | Gaoxiong Zeng | sing101-sing120; p3295_2-p3295_5 | 2017-8 | Project experiments |
 | Yiqing Ma | sing1,sing40-42,sing46-50 | 2018-4| Project experiments |
+| Justinas Lingys | sing2-sing9 | 2018-7| Storage testing |
 
 Note:
 
