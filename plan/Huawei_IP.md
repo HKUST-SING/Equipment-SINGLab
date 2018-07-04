@@ -14,4 +14,5 @@ All the IPs referred are 192.168.2.0/24 range
 | 192.168.2.113 | Maas IP + Gateway |
 
 \* These nodes can be allocated via MAAS
+
 \*\* These nodes are equipped with NFS and LDAP for public access inside the group.
