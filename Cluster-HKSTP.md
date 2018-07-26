@@ -66,6 +66,10 @@ Mellanox Connect X4 NIC ports 0 are connected to Mellanox switches 8-12.
 
 MaaS server provides baremetal server as a service, DNS service and DHCP service.
 
+<b> Note: the version of MaaS should be higher than 2.4.0 (come with Ubuntu 18.04) to prevent a bug during commission. (Wrong interface name) </b>
+
+<b> We also use a curtin script for automatically OFED driver installation and interface configuration. link </b>
+
 ## Network Configuration:
 
 * First Ethernet port is connected to MGT switch port 33 with IP address of 172.17.0.1/16.
@@ -77,6 +81,8 @@ MaaS server provides baremetal server as a service, DNS service and DHCP service
 # Login Server
 
 Login server mainly provides OpenVPN service.
+
+<b> Note: the OpenVPN version should be higher than 2.4.6 to prevent IP drift due to endhosts behind NAT </b>
 
 ## Network Configuration:
 
