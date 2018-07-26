@@ -68,7 +68,7 @@ MaaS server provides baremetal server as a service, DNS service and DHCP service
 
 <b> Note: the version of MaaS should be higher than 2.4.0 (come with Ubuntu 18.04) to prevent a bug during commission. (Wrong interface name) </b>
 
-<b> We also use a curtin script for automatically OFED driver installation and interface configuration. link </b>
+<b> We also use a curtin script for automatically OFED driver installation and interface configuration. [link](https://raw.githubusercontent.com/HKUST-SING/Equipment-SINGLab/master/maas/curtin_userdata_ubuntu_amd64_generic_xenial) </b>
 
 ## Network Configuration:
 
