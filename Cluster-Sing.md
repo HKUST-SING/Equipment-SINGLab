@@ -2,7 +2,7 @@
 
 | Hardware Model | Quantity | Label | Specification |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| Dell PowerEdge R320 | 60 | sing (kaicpu2); sing001-sing009; sing011-sing019; sing040-sing060; sing101-sing120 | [Link](http://www.dell.com/hk/en/business/p/poweredge-r320/pd) |
+| Dell PowerEdge R320 | 60 | sing (kaicpu2); sing001-sing019; sing040-sing059; sing101-sing120 | [Link](http://www.dell.com/hk/en/business/p/poweredge-r320/pd) |
 
 # Switch List
 
