@@ -62,6 +62,12 @@ First Ethernet ports are connected to MGT swtich port 21-25. DHCP.
 
 Mellanox Connect X4 NIC ports 0 are connected to Mellanox switches 8-12.
 
+# CPU Server (wo RDMA NIC) Configuration (CPU06-CPU09)
+
+IPMI ports are connected to MGT switch port 13-16 with IP address of 192.168.30.6-9/16.
+
+First Ethernet ports are connected to MGT switch port 17-20. DHCP.
+
 # MaaS Server
 
 MaaS server provides baremetal server as a service, DNS service and DHCP service.
