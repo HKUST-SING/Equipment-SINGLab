@@ -18,10 +18,9 @@ Note:
 # Usage List
 | User | Equipment (Label) | Date from | Purpose |
 | :-------------: | :-------------: | :-------------: | ------------- |
-| Admin | p3297_1; p3297_2; sing | - | Gateway & Lab Website |
+| Admin | p3297_1; p3297_2 | - | Gateway & Lab Website |
 | Gaoxiong Zeng | sing101-sing120; p3295_2-p3295_5 | 2017-8 | Project experiments |
-| Yiqing Ma | sing1,sing40-42,sing46-50 | 2018-4| Project experiments |
-| Justinas Lingys | sing2-sing9 | 2018-7| Storage testing |
+| Hao Wang | sing41,42,50,51,54,55,57,59; p3295_1 | 2019-4 | Project experiments |
 
 Note:
 
