@@ -20,6 +20,7 @@ Note:
 | :-------------: | :-------------: | :-------------: | ------------- |
 | Admin | p3297_1; p3297_2 | - | Gateway & Lab Website |
 | Hao Wang | sing41,42,50,51,54,55,57,59; p3295_1 | 2019-4 | Project experiments |
+| Cengguang Zhang | sing101 | 2019-8 | download data |
 
 Note:
 
