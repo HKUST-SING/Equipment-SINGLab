@@ -23,6 +23,7 @@ Note:
 | Cengguang Zhang | sing101 | 2019-8 | download data |
 | Yiqing Ma | sing11、12、15、16、101、102、103 | 2019-8 | Training Model |
 | Zilong wang | sing8, 9 | 2019-9 | project |
+| Di Chai | sing17, 19 | 2019-10 | project experiments|
 
 Note:
 
