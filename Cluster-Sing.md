@@ -22,7 +22,7 @@ Note:
 | Hao Wang | sing41,42,50,51,54,55,57,59; p3295_1 | 2019-4 | Project experiments |
 | Cengguang Zhang | sing101 | 2019-8 | download data |
 | Yiqing Ma | sing11、12、15、16、101、102、103、41、42 | 2019-8 | Training Model |
-| Zilong wang | sing8, 9 | 2019-9 | project |
+| Zilong wang | sing8, 9, 50, 51 | 2019-9 | project |
 | Di Chai | sing17, 19 | 2019-10 | project experiments|
 
 Note:
