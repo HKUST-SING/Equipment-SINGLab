@@ -25,8 +25,17 @@ Note:
 | Zilong wang | sing8, 9, 50, 51 | 2019-9 | project |
 | Di Chai | sing17, 19 | 2019-10 | project experiments|
 
+# Malfunction Record
+| User | Equipment (Label) | Failure type | Failure Cause | Failure recovery |
+| :-------------: | :-------------: | :-------------: | ------------- |
+| XXX | sing101 | Break down | overheating by ML training | not recovered |
+| XXX | sing102 | Break down | overheating by ML training | recovered |
+| XXX | sing103 | Break down | overheating by ML training | recovered |
+
+
 Note:
 
 * Please keep the usage list up to date.
 * Gateway IP: 143.89.191.114. Hostname: sing.cse.ust.hk.
 * switch IP: 192.168.2.1.
+
