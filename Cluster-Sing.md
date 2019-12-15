@@ -27,7 +27,7 @@ Note:
 
 # Malfunction Record
 | User | Equipment (Label) | Failure type | Failure Cause | Failure recovery |
-| :-------------: | :-------------: | :-------------: | ------------- |
+| :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
 | XXX | sing101 | Break down | overheating by ML training | not recovered |
 | XXX | sing102 | Break down | overheating by ML training | recovered |
 | XXX | sing103 | Break down | overheating by ML training | recovered |
