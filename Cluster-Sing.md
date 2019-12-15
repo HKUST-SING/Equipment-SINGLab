@@ -38,4 +38,5 @@ Note:
 * Please keep the usage list up to date.
 * Gateway IP: 143.89.191.114. Hostname: sing.cse.ust.hk.
 * switch IP: 192.168.2.1.
+* Please avoid the long time high CPU utilization.
 
