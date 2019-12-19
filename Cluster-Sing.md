@@ -26,11 +26,11 @@ Note:
 | Di Chai | sing17, 19 | 2019-10 | project experiments|
 
 # Malfunction Record
-| User | Equipment (Label) | Failure type | Failure Cause | Failure recovery |
-| :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
-| XXX | sing101 | Break down | overheating by ML training | not recovered |
-| XXX | sing102 | Break down | overheating by ML training | recovered |
-| XXX | sing103 | Break down | overheating by ML training | recovered |
+| User | Equipment (Label) | Failure type | Failure Cause | Failure recovery | Date |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
+| XXX | sing101 | Break down | overheating by ML training | not recovered | 2019.12.15 |
+| XXX | sing102 | Break down | overheating by ML training | recovered | 2019.12.15 |
+| XXX | sing103 | Break down | overheating by ML training | recovered | 2019.12.15 |
 
 
 Note:
