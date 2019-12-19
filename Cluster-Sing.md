@@ -28,7 +28,7 @@ Note:
 # Malfunction Record
 | User | Equipment (Label) | Failure type | Failure Cause | Failure recovery | Date |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | ------------- |
-| XXX | sing102 | Break down | network connection problem | not recovered | 2019.12.19 |
+| Yiqing | sing102 | Break down | network connection problem | not recovered | 2019.12.19 |
 | XXX | sing101 | Break down | overheating by ML training | not recovered | 2019.12.15 |
 | XXX | sing102 | Break down | overheating by ML training | recovered | 2019.12.15 |
 | XXX | sing103 | Break down | overheating by ML training | recovered | 2019.12.15 |
